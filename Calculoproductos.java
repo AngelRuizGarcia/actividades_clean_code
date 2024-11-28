@@ -2,8 +2,8 @@ public class Calculoproductos {
     //Ejercicio para calcular el precio total de la compra dado el precio de los productos y los descuentos e impuestos.
     public static void main(String[] args) {
         double[] precios = {100.0, 50.0, 25.0}; // precios de productos
-        double impuestos = 0.08; // impuestos
-        double descuento = 0.1;  // descuento
+        final double impuestos = 0.08; // impuestos
+        final double descuento = 0.1;  // descuento
         double totalSuma = 0;
 
         for (double precio : precios) {
